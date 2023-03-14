@@ -68,9 +68,12 @@
 
 .LeftBottom2{
     color: white;
+
     margin-bottom: 30px;
     font-weight: 300;
 }
+
+.link {color: white; } 
 
 .Right{
     display: flex;
@@ -91,6 +94,8 @@
     justify-content: space-between;
     background-color: white;
     height: 300px;
+    box-shadow: 0 2px 5px rgb(218, 218, 218);
+    padding-top: 22px;
     
 }
 .RightBottom{
@@ -150,9 +155,15 @@ input
     border-radius: 5px;
     height: 1.5rem;
     width: 20rem;
+    
 
 }
-
+input:focus {
+    outline: 0;
+    box-shadow: 3px 3px 10px grey;
+    border: 1px solid blue;
+}
+  
 
 
 
